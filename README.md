@@ -4,6 +4,14 @@ A small collection of [Crystal Palace](https://tradecraftgarden.org/crystalpalac
 
 ## Setup
 
+### Kali Linux Users
+For Kali Linux users, we provide an automated setup script:
+```bash
+./setup-kali.sh
+```
+For detailed instructions, see [README-KALI.md](README-KALI.md).
+
+### General Setup
 1. Download the Crystal Palace Release distrubtion.
 2. Extract the tar archive and copy `crystalpalace.jar` to the same directory as `cobaltstrike.exe`.
 3. Load `crystalpalace.cna` into Cobalt Strike.
