@@ -87,6 +87,28 @@ After successful compilation, you'll find the following artifacts:
 
 ## Usage with Cobalt Strike
 
+### For Linux Cobalt Strike Users
+
+If you're running Cobalt Strike on Linux (like your setup with `cobaltstrike-client.sh`):
+
+1. **Download Crystal Palace**: Get the Crystal Palace Release distribution from the [Tradecraft Garden](https://tradecraftgarden.org/).
+
+2. **Extract and Setup**: 
+   - Extract the Crystal Palace archive
+   - Copy `crystalpalace.jar` to your Cobalt Strike directory (same directory as your `cobaltstrike-client.sh` script)
+   - Example: If your Cobalt Strike is in `~/cobaltstrike/Client/`, copy `crystalpalace.jar` there
+
+3. **Load the Script**:
+   - In Cobalt Strike, go to `Script Manager`
+   - Click `Load` and select `crystalpalace.cna` from this project
+   - The script will be loaded and ready to use
+
+4. **Use the Loaders**: The compiled `.o` files will be used by Crystal Palace when generating payloads.
+
+### For Windows Cobalt Strike Users
+
+If you're running Cobalt Strike on Windows:
+
 1. **Download Crystal Palace**: Get the Crystal Palace Release distribution from the [Tradecraft Garden](https://tradecraftgarden.org/).
 
 2. **Extract and Setup**: 
@@ -122,7 +144,7 @@ After successful compilation, you'll find the following artifacts:
 4. **Cobalt Strike can't find the loaders**:
    - Ensure the compiled `.o` files are in the correct `bin/` directories
    - Verify the `crystalpalace.cna` script is properly loaded
-   - Check that `crystalpalace.jar` is in the Cobalt Strike directory
+   - Check that `crystalpalace.jar` is in the Cobalt Strike directory (same directory as your client script)
 
 ### Verification Commands
 

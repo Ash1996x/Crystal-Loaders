@@ -75,7 +75,7 @@ file postex-udrl/bin/loader.x64.o
 
 ## Next Steps
 1. Download Crystal Palace Release
-2. Extract `crystalpalace.jar` to Cobalt Strike directory
+2. Extract `crystalpalace.jar` to Cobalt Strike directory (same directory as your client script)
 3. Load `crystalpalace.cna` in Cobalt Strike
 4. Use the loaders with Crystal Palace
 
